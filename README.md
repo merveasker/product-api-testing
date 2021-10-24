@@ -46,16 +46,3 @@ Additional command line parameters can be passed for switching the application e
 $ mvn clean verify -Denvironment=dev
 ```
 Configurations to for different environments are set in the `test/resources/serenity.conf` file. In real time projects each environment can be configured with its baseurl to run the tests based on different environments.
-```
-environments {
-  default {
-    baseurl = "http://api.weatherstack.com"
-  }
-  dev {
-    baseurl = "http://api.weatherstack.com"
-  }
-  staging {
-    baseurl = "http://api.weatherstack.com"
-  }
-}
-```
